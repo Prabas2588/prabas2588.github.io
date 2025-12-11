@@ -14,6 +14,120 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="iIm1kDwhnQZJ91CVv5lfqbN1A8ZeFUvL4u69tFZJ3kU" />
   <style>
+    /* ---------------- MOBILE VIEW FIXES ---------------- */
+@media (max-width: 768px) {
+
+  body {
+    line-height: 1.4;
+  }
+
+  header {
+    height: 70vh;
+    padding: 1.5rem;
+    background-position: center;
+    background-size: cover;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  nav {
+    padding: .6rem;
+    gap: 8px;
+  }
+
+  nav a {
+    margin: 4px 6px;
+    padding: .3rem .6rem;
+    font-size: .85rem;
+  }
+
+  main {
+    padding: 1.5rem 1rem;
+  }
+
+  section {
+    padding: 1.4rem .8rem;
+    margin-bottom: 2rem;
+  }
+
+  section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.2em;
+  }
+
+  .card-grid {
+    gap: 1rem;
+  }
+
+  .card {
+    padding: 1.1em .9em;
+  }
+
+  .card-icon {
+    font-size: 1.9em;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-desc {
+    font-size: .9rem;
+  }
+
+  /* Form responsive */
+  form#contactForm {
+    width: 92%;
+    margin: 2em auto;
+    padding: 1.6em 1.2em;
+  }
+
+  form input, form textarea {
+    font-size: .9rem;
+    padding: .7em .9em !important;
+  }
+
+  form button {
+    font-size: 1rem;
+    padding: .8em 1.5em;
+  }
+
+  footer {
+    padding: 1rem;
+    font-size: .85rem;
+  }
+}
+
+/* Ultra-small devices */
+@media (max-width: 480px) {
+
+  header {
+    height: 60vh;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    font-size: .75rem;
+  }
+
+  .card-title {
+    font-size: .95rem;
+  }
+
+  .card-desc {
+    font-size: .85rem;
+  }
+}
+
     * { margin:0; padding:0; box-sizing:border-box; }
     html { scroll-behavior:smooth; scroll-padding-top:80px; }
     body {
