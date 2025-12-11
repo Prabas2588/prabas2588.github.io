@@ -15,6 +15,15 @@
 <meta name="google-site-verification" content="iIm1kDwhnQZJ91CVv5lfqbN1A8ZeFUvL4u69tFZJ3kU" />
   <style>
     /* ---------------- MOBILE VIEW FIXES ---------------- */
+    /* Force single-card layout on mobile */
+@media (max-width: 768px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 1.2rem;
+  }
+}
+
 @media (max-width: 768px) {
 
   body {
